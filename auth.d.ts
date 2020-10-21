@@ -13,6 +13,6 @@ interface SignUpRequest {
 }
 
 interface JwtPayload {
-  sub: string;
-  username: string;
+  uid: string;
+  email: string;
 }

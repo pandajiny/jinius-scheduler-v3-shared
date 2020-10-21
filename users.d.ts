@@ -1,4 +1,5 @@
-interface User extends DatabaseObject {
+interface User {
+  uid: string;
   email: string;
-  password: string;
+  password?: string;
 }
