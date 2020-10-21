@@ -8,7 +8,11 @@ interface LoginResult {
 }
 
 interface SignUpRequest {
-  name: string;
   email: string;
   _password: string;
+}
+
+interface JwtPayload {
+  sub: string;
+  username: string;
 }
