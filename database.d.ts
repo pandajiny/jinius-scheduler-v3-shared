@@ -1,0 +1,3 @@
+interface DatabaseObject {
+  id?: string;
+}
