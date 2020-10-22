@@ -3,6 +3,11 @@ interface LoginRequest {
   _password: string;
 }
 
+interface AuthRequest {
+  email: string;
+  password: string;
+}
+
 interface LoginResult {
   access_token: string;
 }
