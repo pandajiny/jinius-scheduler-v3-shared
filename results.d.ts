@@ -1,5 +1,5 @@
 interface ActionResult {
   ok: boolean;
-  message: string;
+  message?: string;
   error_message?: string;
 }
