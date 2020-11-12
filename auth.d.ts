@@ -1,11 +1,11 @@
 interface LoginRequest {
   email: string;
-  _password: string;
+  password: string;
 }
 
-interface AuthRequest {
+interface HashedLoginRequest {
   email: string;
-  password: string;
+  _password: string;
 }
 
 interface LoginResult {
@@ -13,6 +13,13 @@ interface LoginResult {
 }
 
 interface SignUpRequest {
+  name: string;
+  email: string;
+  password: string;
+}
+
+interface HashedSignUpRequest {
+  name: string;
   email: string;
   _password: string;
 }

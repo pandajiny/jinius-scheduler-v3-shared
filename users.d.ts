@@ -1,5 +1,11 @@
 interface User {
   uid: string;
+  name: string;
   email: string;
-  password?: string;
+  _password: string;
+}
+
+interface UserInformation {
+  name: string;
+  email: string;
 }
