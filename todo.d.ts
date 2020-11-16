@@ -3,7 +3,6 @@ interface TodoItem extends DatabaseObject {
   isComplete: boolean;
   parentId?: string;
   createTime: number;
-  endTime?: number;
 }
 
 interface AddTodoItemRequest {
