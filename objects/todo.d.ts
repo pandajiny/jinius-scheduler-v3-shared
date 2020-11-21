@@ -1,6 +1,7 @@
 interface TodoItem extends DatabaseObject {
   content: string;
   isComplete: boolean;
-  parentId?: string;
+  parentId: string | nul;
   createTime: number;
+  endTime: number | null;
 }
