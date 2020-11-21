@@ -29,3 +29,7 @@ interface AddTodoItemRequest {
   parentId: string | null;
   endTime: number | null;
 }
+
+interface AddGroupRequest {
+  groupName: string;
+}
