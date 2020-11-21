@@ -3,4 +3,6 @@ interface TodoItem extends DatabaseObject {
   isComplete: boolean;
   parentId?: string;
   createTime: number;
+  end_time: number;
+  group_id: string;
 }
