@@ -1,4 +1,5 @@
 interface NavItem {
+  type: "TIME" | "GROUP";
   title: string;
   pathname: string;
 }
