@@ -28,6 +28,7 @@ interface AddTodoItemRequest {
   isComplete: boolean;
   parentId: string | null;
   endTime: number | null;
+  groupId: string | null;
 }
 
 interface AddGroupRequest {
