@@ -12,5 +12,6 @@ interface AddGroupRequest {
 }
 
 interface TodosFilter {
+  userId: string;
   groupId?: string;
 }

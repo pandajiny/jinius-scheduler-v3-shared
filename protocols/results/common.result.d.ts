@@ -4,8 +4,8 @@ interface ActionResult {
   error_message?: string;
 }
 
-interface HttpResult<T> {
+interface HttpResponse<T> {
   ok: boolean;
   error_message?: string;
-  result: T;
+  result?: T;
 }
