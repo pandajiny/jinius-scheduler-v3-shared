@@ -21,16 +21,3 @@ interface HashedSignUpRequest {
   email: string;
   _password: string;
 }
-
-interface AddTodoItemRequest {
-  owner: string;
-  content: string;
-  isComplete: boolean;
-  parentId: string | null;
-  endTime: number | null;
-  groupId: string | null;
-}
-
-interface AddGroupRequest {
-  groupName: string;
-}
