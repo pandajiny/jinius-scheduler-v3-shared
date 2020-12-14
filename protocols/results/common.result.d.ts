@@ -7,5 +7,5 @@ interface ActionResult {
 interface HttpResponse<T> {
   ok: boolean;
   error_message?: string;
-  result?: T;
+  data?: T;
 }
