@@ -1,9 +1,8 @@
-interface AddTodoItemRequest {
-  owner: string;
+interface AddTodoRequest {
+  ownerId: string;
   content: string;
-  isComplete: boolean;
-  parentId: string | null;
-  endTime: number | null;
+  parentTodoId: string | null;
+  limitDatetime: number | null;
   groupId: string | null;
 }
 
