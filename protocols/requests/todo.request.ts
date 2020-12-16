@@ -6,11 +6,8 @@ interface AddTodoRequest {
   groupId: string | null;
 }
 
-interface AddGroupRequest {
-  groupName: string;
-}
-
 interface TodosFilter {
+  [key: string]: string | undefined;
   userId: string;
   groupId?: string;
 }
